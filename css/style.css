@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+html {
+    font-size: 62.5%;
+}
+
+h1 {
+    background-color: aqua;
+    font-size: 7rem;
+    text-align: center;
+    color: #ffff;
+    padding: 40px 0px;
+}
+
+h3 {
+    background-color: aqua;
+    font-size: 3rem;
+    padding: 40px 0px;
+    text-align: center;
+    color: rgb(29, 29, 29);
+}
+
+p {
+    font-size: 2rem;
+    text-align: justify;
+    margin: 50px 0;
+    padding: 0 30px;
+    list-style-type: 1rem;
+}
+#progress {
+    background-color: aqua;
+    position: fixed;
+    right: 10px;
+    bottom: 20px;
+    width: 70px;
+    height: 70px;
+    display: grid;
+    place-items: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    border-radius: 50%;
+    font-size: 3rem;
+    text-align: center;
+    cursor: pointer;
+}
+
+#progress-value {
+    display: block  ;
+    background-color: #fff;
+    width: 50px;
+    height: 50px;
+    padding-top: 3px;
+    border-radius: 50%;
+}
