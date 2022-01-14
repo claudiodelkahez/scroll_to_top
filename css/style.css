@@ -6,6 +6,7 @@
 }
 html {
     font-size: 62.5%;
+    scroll-behavior: smooth;
 }
 
 h1 {
@@ -17,7 +18,6 @@ h1 {
 }
 
 h3 {
-    background-color: aqua;
     font-size: 3rem;
     padding: 40px 0px;
     text-align: center;
@@ -32,7 +32,6 @@ p {
     list-style-type: 1rem;
 }
 #progress {
-    background-color: aqua;
     position: fixed;
     right: 10px;
     bottom: 20px;
@@ -54,4 +53,5 @@ p {
     height: 50px;
     padding-top: 3px;
     border-radius: 50%;
+
 }
